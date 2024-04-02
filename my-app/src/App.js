@@ -11,10 +11,12 @@ import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import NestingComponents from "./components/NestingComponents";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import RenderingLists from "./components/RenderingLists";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
   return (
     <div className="App">
+      <LifeCyclesCDM/>
       <RenderingLists/>
       <FunctionalGreeting/>
       <FunctionalGreetingWithProps greeting="Nice to see you" name="Linda" age="30"/>
