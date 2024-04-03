@@ -21,12 +21,26 @@ import ControlledFormHooks from "./components/ControlledFormHooks";
 import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseStateWithObjects from "./components/UseStateWithObjects";
 import UseEffectCounter from "./components/UseEffectCounter"
+import HTTPRequests from "./components/HTTPRequests";
+import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounter/>
-      <UseStateWithObjects/>
+      <HTTPHooks/>
+      
+      
+      
+    </div>
+  );
+}
+
+export default App;
+/*<UseEffectCounter/>
+<HTTPRequests/>
+      <HTTPPost/>
+<UseStateWithObjects/>
       <UseStateWithArrays/>
       <ControlledFormHooks/>
       <SearchBar/>
@@ -45,9 +59,5 @@ function App() {
       <ConditionalRenderingClass/>
       <ConditionalRenderingFunctional connected={false}/>
       <NestingComponents/>
-      <MethodsAsPropsParent/>
-    </div>
-  );
-}
-
-export default App;
+      <MethodsAsPropsParent/> 
+      */
