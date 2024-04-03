@@ -16,10 +16,16 @@ import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForm from "./components/ControlledForm";
 import UncontrolledForm from "./components/UncontrolledForm";
+import SearchBar from "./components/SearchBar";
+import ControlledFormHooks from "./components/ControlledFormHooks";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 function App() {
   return (
     <div className="App">
+      <UseStateWithArrays/>
+      <ControlledFormHooks/>
+      <SearchBar/>
       <UncontrolledForm/>
       <ControlledForm/>
       <LifeCyclesCWU/>
